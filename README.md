@@ -1,7 +1,7 @@
 # git-issuer
 Just a small tool to get and create issues on github.
 
-You just need an instance of GitIssuer:
+You just need an instance of GitIssuer:<br>
 var gitIssuer = new GitIssuer(gitUser, gitPassword, gitRepName, gitRepOwner);
 
 // to filter the result
