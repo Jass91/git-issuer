@@ -16,7 +16,7 @@ var criterias = new Dictionary<string, string>()
 var issues = gitIssuer.GetIssues(criterias);
 
 // to create an issue<br>
-var labels = new string[]{"my label"};
-var assignees = new string[]{"GitUser1", "GitUser2"};
+var labels = new string[]{"my label"};<br>
+var assignees = new string[]{"GitUser1", "GitUser2"};<br>
 
 gitIssuer.CreateIssue("Title", "Body", assignees, labels);
